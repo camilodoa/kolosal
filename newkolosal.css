@@ -56,11 +56,16 @@ body {
 
 .profile {
     float: left;
+    margin-right: 10px;
 }
 
 .description {
     text-align-last: center;
+    margin: 0px 10px 0px 10px;
+    justify-content: center;
+    position: relative;
 }
+
 
 <div class="container-lg">100% wide until large breakpoint</div> 
 
