@@ -37,6 +37,8 @@ h4 {
 	padding: 0 40px;
     align-content: center;
 }
+
+
 h5{
     text-align: left
     font-family: 'Georgia', sans-serif;
@@ -46,6 +48,12 @@ h5{
     border-radius: 10px;
 }
 
+.h6 {font-size: 12px;
+    font-style: normal;
+    font-family: 'Georgia', sans-serif;
+    font-variant: small-caps;
+    color:black
+}
 
 h20{
     text-align: left 
