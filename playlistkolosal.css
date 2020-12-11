@@ -109,3 +109,30 @@ article {
     
 }
 
+<div class="container-lg">100% wide until large breakpoint</div> 
+{
+  box-sizing: scale;
+}
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 10px;
+}
+.row, after:"https://open.spotify.com/embed/playlist/2CRJLrR0OGXZxZ8EsNf9bB","https://open.spotify.com/embed/playlist/672rCfFIbN85JdMbGvuTKE","https://open.spotify.com/embed/playlist/6KEbkVaoRj1Ia5SKn9yZy1", "https://open.spotify.com/embed/playlist/4vyQN1nZdtx9uYOGcfAXFo"; 
+  display: table-row;
+  clear: both;
+}
+}
+.column {
+  float: left;
+  width: 10%;
+}
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
