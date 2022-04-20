@@ -1,0 +1,72 @@
+body {
+  height: auto; /* You must set a specified height */
+  background-position: cover; /* Center the image */
+  background-repeat: cover; /* Do not repeat the image */
+  background-size: cover;/* Resize the background image to cover the entire container */
+  background-image: repeating-linear-gradient( #F593FA, #84C3E3,#F593FA);
+color: black;
+font-family: 'Verdana'; 
+    
+}
+
+h1{
+    color: black;
+    font-family: 'Verdana';
+    font-size: 400;
+}
+
+h2{
+    color: black;
+    font-family: 'Verdana';
+    font-size: 35px;
+}
+
+h5{
+    color: black;
+    font-family: 'Verdana';
+    font-size: 20px;
+}
+
+p{
+    font: 'Verdana';
+    color: black; 
+    font-size: 20px;
+}
+/* #9F71E3 #8998FA */
+
+.column {
+    float: center;
+    background-color: white; 
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.iframe {
+  background-color: none;
+  width: 100%;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: none;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: ;
+      
+  }
+}
